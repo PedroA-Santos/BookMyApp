@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Pedro QA",
+      "email": "testeqa@gmail.com",
+      "password": "Qa123@"
+    },
+    {
+      "id": "2",
+      "name": "Bruna Dev",
+      "email": "bruna.dev@gmail.com",
+      "password": "Bruna123@"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Tester",
+      "email": "carlostester@gmail.com",
+      "password": "Test1234@"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programação",
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "category": "Engenharia de Software",
+      "available": false
+    },
+    {
+      "id": "3",
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt",
+      "category": "Desenvolvimento",
+      "available": true
+    },
+    {
+      "id": "4",
+      "title": "Design Patterns",
+      "author": "Erich Gamma",
+      "category": "Arquitetura de Software",
+      "available": true
+    },
+    {
+      "id": "5",
+      "title": "You Don’t Know JS",
+      "author": "Kyle Simpson",
+      "category": "JavaScript",
+      "available": true
+    },
+    {
+      "id": "6",
+      "title": "O Senhor dos Anéis",
+      "author": "J. R. R. Tolkien",
+      "category": "Fantasia",
+      "available": false
+    },
+    {
+      "id": "7",
+      "title": "Harry Potter e a Pedra Filosofal",
+      "author": "J.K. Rowling",
+      "category": "Fantasia",
+      "available": true
+    },
+    {
+      "id": "8",
+      "title": "Código Limpo em Python",
+      "author": "Luciano Ramalho",
+      "category": "Programação",
+      "available": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": 1,
+      "bookId": 1,
+      "status": "ativa",
+      "date": "2025-11-01"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "bookId": 2,
+      "status": "cancelada",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "bookId": 6,
+      "status": "ativa",
+      "date": "2025-10-25"
+    }
+  ],
+  "history": [
+    {
+      "id": "1",
+      "userId": 1,
+      "bookTitle": "Refactoring",
+      "status": "cancelada",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "bookTitle": "Clean Code",
+      "status": "ativa",
+      "date": "2025-11-01"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "bookTitle": "Design Patterns",
+      "status": "concluída",
+      "date": "2025-09-30"
+    }
+  ]
+}
